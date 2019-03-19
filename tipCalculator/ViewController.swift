@@ -24,7 +24,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func onTap(_ sender: Any) {
+    @IBAction func onTap(_ sender: Any)
+    {
         print("Hello")
         view.endEditing(true)
     }
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
         
         //Update the tip and total labels
         tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", tip)
+        totalLabel.text = String(format: "$%.2f", total)
         
     }
 }
