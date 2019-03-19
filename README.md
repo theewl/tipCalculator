@@ -4,7 +4,7 @@ tipCalculator is a tip calculator application for iOS.
 
 Submitted by: Eric Liang
 
-Time spent: 2 hours spent in total
+Time spent: 1 hour spent in total
 
 ## User Stories
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src = "http://g.recordit.co/HVF4ke17CY.gif" width=250><br>
+<img src = "http://recordit.co/e8UmopBxnt" width=250><br>
 
 ## Notes
 
