@@ -10,6 +10,33 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var defaultChanger: UISegmentedControl!
+    
+    
+    @IBAction func defaultSegments(_ sender: Any)
+    {
+        let defaults = UserDefaults.standard
+        
+        let tipPercentages = [ 0.15, 0.18, 0.2]
+        defaults.set(tipPercentages[defaultChanger.selectedSegmentIndex], forKey: "myDouble")
+        
+        let doubleValue = defaults.double(forKey: "myDouble")
+        
+        if( doubleValue == 0.15)
+        {
+            defaults.set(0, forKey: "myInt")
+        }
+        else if ( doubleValue == 0.18)
+        {
+            defaults.set(1, forKey: "myInt")
+        }
+        else if (doubleValue == 0.20)
+        {
+            defaults.set(2, forKey: "myInt")
+        }
+        
+        defaults.synchronize()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

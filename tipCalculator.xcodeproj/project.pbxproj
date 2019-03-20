@@ -13,6 +13,8 @@
 		9627B49E22406C8000A50975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9627B49D22406C8000A50975 /* Assets.xcassets */; };
 		9627B4A122406C8000A50975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9627B49F22406C8000A50975 /* LaunchScreen.storyboard */; };
 		9627B4AD2240A53200A50975 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627B4AC2240A53200A50975 /* SettingsViewController.swift */; };
+		968AC1E42241F22C0064FFA3 /* tipIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968AC1E32241F22C0064FFA3 /* tipIcon.jpg */; };
+		968AC1E62241F2550064FFA3 /* tipIcon58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 968AC1E52241F2550064FFA3 /* tipIcon58.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9627B4A022406C8000A50975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9627B4A222406C8000A50975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9627B4AC2240A53200A50975 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		968AC1E32241F22C0064FFA3 /* tipIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tipIcon.jpg; sourceTree = "<group>"; };
+		968AC1E52241F2550064FFA3 /* tipIcon58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tipIcon58.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		9627B49522406C7C00A50975 /* tipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				968AC1E52241F2550064FFA3 /* tipIcon58.jpg */,
+				968AC1E32241F22C0064FFA3 /* tipIcon.jpg */,
 				9627B49622406C7C00A50975 /* AppDelegate.swift */,
 				9627B49822406C7C00A50975 /* ViewController.swift */,
 				9627B49A22406C7C00A50975 /* Main.storyboard */,
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968AC1E42241F22C0064FFA3 /* tipIcon.jpg in Resources */,
+				968AC1E62241F2550064FFA3 /* tipIcon58.jpg in Resources */,
 				9627B4A122406C8000A50975 /* LaunchScreen.storyboard in Resources */,
 				9627B49E22406C8000A50975 /* Assets.xcassets in Resources */,
 				9627B49C22406C7C00A50975 /* Main.storyboard in Resources */,

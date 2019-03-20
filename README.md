@@ -4,7 +4,7 @@ tipCalculator is a tip calculator application for iOS.
 
 Submitted by: Eric Liang
 
-Time spent: 1 hour spent in total
+Time spent: 2 hour spent in total
 
 ## User Stories
 
@@ -13,11 +13,11 @@ The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src = "http://g.recordit.co/4jpx7zRKhX.gif" width=250><br>
+<img src = "http://g.recordit.co/xZ7mDxleK3.gif" width=250><br>
 
 ## Notes
 
@@ -35,6 +35,9 @@ Describe any challenges encountered while building the app.
 
 - Keyboard bug
 	- had to toggle keyboard in Xcode. 
+    
+    - Ran into this error:
+        2019-03-19 21:41:16.068647-0700 tipCalculator[68068:5948113] *** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<tipCalculator.ViewController 0x7fa89540b610> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key settingsButton.'
 
 ## License
 
